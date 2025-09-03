@@ -1,0 +1,57 @@
+.header_directorio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    height: auto;
+    
+}
+
+.header_directorio img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.header_directorio h3 {
+    font-size: 100%;
+    color: #333;
+    height: auto;
+}
+
+
+/* Estilos de la tabla */
+table {
+    width: 70%; /* Ocupará el 80% del contenedor */
+    border-collapse: collapse; /* Une los bordes en una sola línea */
+    margin: 0 auto; /* Centrar la tabla */
+    border-radius: 25px;
+    background: fff;
+ }
+
+th, td {
+    background: #fff;
+    border-bottom: 1px solid rgba(190, 184, 184, 0.687); /* Bordes de una sola línea */
+    text-align: center; /* Centrar el texto */
+    padding: 2%; /* Espaciado interno */
+    width: 33.33%; /* Cada columna ocupa un tercio del ancho */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos para TELEFONOS*/
+@media only screen and (max-width: 768px) {
+    /* Reglas de estilo para tamaños de pantalla de hasta 768 píxeles de ancho */
+    table{
+        width: 90%;
+    }
+
+}
